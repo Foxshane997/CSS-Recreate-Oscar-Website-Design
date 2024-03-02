@@ -1,0 +1,32 @@
+.nav-container {
+    width: 100%;
+}
+
+.list-container-1 ul{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2em;
+    height: 30px;
+}
+
+.nav-container nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    gap: 1em;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.plans-container {
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:1px;
+    margin-bottom: 2px;
+}
